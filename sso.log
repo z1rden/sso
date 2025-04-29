@@ -1,0 +1,5 @@
+{"time":"2025-03-26T14:57:36.313545+03:00","level":"INFO","msg":"Authenticating user","operation":"auth.service.Login","email":"admin@example.com"}
+{"time":"2025-03-26T14:57:36.313819+03:00","level":"INFO","msg":"Execute query","operation":"Postgres.Get","query":"select * from users where email = $1","args":["admin@example.com"]}
+{"time":"2025-03-26T14:57:36.414507+03:00","level":"INFO","msg":"Execute query","operation":"Postgres.Get","query":"select * from apps where a_id = $1","args":[1]}
+{"time":"2025-03-26T14:57:36.416971+03:00","level":"INFO","msg":"Registered user %d","!BADKEY":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfaWQiOjEsImVtYWlsIjoiYWRtaW5AZXhhbXBsZS5jb20iLCJleHAiOjE3NDMwMjYyNTYsInVpZCI6MX0.ArpL3CRU9B4q1KrcgB6P-Zn1NQkPElFF8WpUHiIjQXc"}
+3-26T14:52:13.781365+03:00","level":"ERROR","msg":"failed to register: %v","!BADKEY":"rpc error: code = Unknown desc = scany: query one result row: ERROR: column \"id\" does not exist (SQLSTATE 42703)"}
